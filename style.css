@@ -1,0 +1,54 @@
+
+.colo { 
+    
+   box-sizing: border-box ; width: 25; height: 35;
+    background-color: rgb(175, 161, 32);
+}
+.pargray {
+    background-color:rgb(228, 216, 216);
+  }
+  .outer {
+    outline: 2px solid #CCC;
+    border: 1px solid #999;
+    background-color: rgb(175, 161, 32);
+    }
+.container {
+        position: relative;
+    
+
+ }
+      
+ .container .content {
+    position:absolute ;
+  top: 30px ;
+  left: 30px ;
+  font-weight: bolder;
+   
+
+  color: rgba(45, 6, 136, 0.911);
+  padding-left: 20px;
+  padding-right: 20px;
+ }
+p {
+    animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+ 
+ .box {
+    display: flex;
+    background-color: blanchedalmond;
+    font-weight: bolder;
+    
+  }
